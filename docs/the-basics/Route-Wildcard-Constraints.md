@@ -26,4 +26,4 @@ Route::get('posts/{post}', function ($slug) {
 })->where('post', '[A-z_\-]+');
 ```
 
-![Vista Welcome](images/expressiones.png.png)
+![Vista Welcome](images/expressiones.png)
