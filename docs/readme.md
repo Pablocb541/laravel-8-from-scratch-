@@ -8,6 +8,6 @@
 - [08. Store Blog Posts as HTML Files](./the-basics/Store-Blog-Posts-as-HTML-Files.md)
 - [09. Route Wildcard Constraint](./the-basics/Route-Wildcard-Constraints.md)
 - [10. Use Caching for Expensive Operations](./the-basics/Use-Caching-for-Expensive-Operations.md)
-
-
-- [0.](./the-basics/)
+- [11. Use the Filesystem Class to Read a Directory](./the-basics/Using-the-Filesystem-Class-to-Read-a-Directory.md)
+- [12. Find a Composer Package for Post Metadata](./the-basics/Find-a-Composer-Package-for-Post-Metadata.md)
+- [13. Collection Sorting and Caching Refresher](./the-basics/Collection-Sorting-and-Caching-Refresher.md)
