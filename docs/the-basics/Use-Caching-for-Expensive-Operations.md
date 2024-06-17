@@ -1,6 +1,6 @@
 [< Volver al índice](/docs/readme.md)
 
-#  Route Wildcard Constraints
+#  Use Caching for Expensive Operations
 
 En este episodio vamos a modificar el archivo web.php, agregando `$post = cache()->remember("posts.{$slug}", 1200, fn() => file_get_contents($path));`
 esto con el fin de que no este llamado a `file_get_contents()` cada vez que entramos a la pagina.Este se utiliza para almacenar 
