@@ -11,3 +11,9 @@
 - [11. Use the Filesystem Class to Read a Directory](./the-basics/Using-the-Filesystem-Class-to-Read-a-Directory.md)
 - [12. Find a Composer Package for Post Metadata](./the-basics/Find-a-Composer-Package-for-Post-Metadata.md)
 - [13. Collection Sorting and Caching Refresher](./the-basics/Collection-Sorting-and-Caching-Refresher.md)
+
+
+## 03. Blade
+- [14. Blade The Absolute Basics](./blade/Blade-The-Absolute-Basics.md)
+- [15. Blade Layouts Two Ways](./blade/Blade-Layouts-Two-Ways.md)
+- [16. A Few Tweaks and Consideration](./blade/A-Few-Tweaks-and-Consideration.md)
