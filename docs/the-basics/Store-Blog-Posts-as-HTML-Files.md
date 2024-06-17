@@ -7,7 +7,7 @@ En este episodio vamos a crear una carpeta para post , modificar nuestro web.php
 Empezamos creando una carpeta llamada posts en resources dentro de ella vamos a crear 3 paginas html. En estas paginas nada mas agregaremos un h1 para titulo, un a href para redirigir y un p para texto
 
 creamos 
-my-first-post.html
+`my-first-post.html`
 ```html
 <h1><a href="/post">My First Post</a></h1>
 
@@ -17,7 +17,7 @@ my-first-post.html
 
 ```
 
-my-second-post.html
+`my-second-post.html`
 
 
 ```html
@@ -28,7 +28,7 @@ my-second-post.html
 </p>
 ```
 
-my-third-post.html
+`my-third-post.html`
 
 ```html
 <h1><a href="/post">My Third Post</a></h1>
@@ -85,7 +85,7 @@ por ultimo en posts agregaremosa href para redirigir nuestros post
 
 ```
 
-modificamos el web.php para que la a ruta principal muestra la vista posts, mientras que la ruta posts/{post} construye y lee un archivo basado en el $slug, mostrando su contenido en la vista post o redirigiendo a la página principal si no existe. con el ´$slug´ podemos poner la ruta de como se llama el post en el link de la página
+modificamos el `web.php` para que la a ruta principal muestra la vista posts, mientras que la ruta posts/{post} construye y lee un archivo basado en el $slug, mostrando su contenido en la vista post o redirigiendo a la página principal si no existe. con el `$slug` podemos poner la ruta de como se llama el post en el link de la página
 ```php
 
 Route::get('/', function () {

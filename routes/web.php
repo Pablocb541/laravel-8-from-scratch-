@@ -22,7 +22,6 @@ Route::get('posts/{post}', function ($slug) {
 
     if (! file_exists($path)) {
         return redirect('/');
-        //abort(404);
     }
 
     $post = file_get_contents($path);
@@ -30,7 +29,7 @@ Route::get('posts/{post}', function ($slug) {
     return view('post', [
         'post' => $post
     ]);
-});
+})->where('post', '[A-z_\-]+');
 
 Auth::routes();
 
