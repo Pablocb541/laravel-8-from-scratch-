@@ -1,65 +1,49 @@
 [< Volver al índice](/docs/readme.md)
 
-# Blade Layouts Two Ways
- En este episodio vamos a crear una carpeta llamada components en resource dentro de components crearemos un archivo llamado
-`layout.blade.php`
+# Migrations: The Absolute Basics
 
-Este codigo estará en `layout.blade.php`
+En este episodio vamos limiar nuestra base de datos, entramos donde tenemos nuestra base de datos y 
+ejecutamos `php artisan migrate` despues `php artisan migrate:rollback` y por ultimo `php artisan migrate:fresh`
 
-`<body>{{ $slot }}</body>: ` es la sección principal del documento html. Dentro del elemento `<body>`,
- se encuentra la expresión `{{ $slot }}`, que es un marcador de posición que será reemplazado por el 
- contenido principal de la página cuando se cargue.
-```php
- <!doctype html>
-
-<title>My Blog</title>
-<link rel="stylesheet" href="/app.css">
-
-<body>
-    {{ $slot }}
-</body> 
-```
-
-
-Modificaremos el codigo de `post` que se encuentra en resource/views
-
-Post
-```php
-<x-layout>
-    <article>
-        <h1>{{ $post->title }}</h1>
-
-        <div>
-            {!! $post->body !!}
-        </div>
-    </article>
-
-    <a href="/">Go Back</a>
-</x-layout>
-
-
-```
-Tambíen el codigo de `posts`
+Nos vamos a app/database/migrations y editaremos nuestro `2014_10_12_000000_create_users_table.php`
 
 ```php
+class CreateUsersTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('users', function (Blueprint $table) {
+            $table->id();
+            $table->string('username');
+            $table->string('email')->unique();
+            $table->string('password');
+            $table->boolean('is_admin')->default(false);
+            $table->rememberToken();
+            $table->timestamps();
+        });
+    }
 
-<x-layout>
-    @foreach ($posts as $post)
-        <article class="{{ $loop->even ? 'foobar' : '' }}">
-            <h1>
-                <a href="posts/{{ $post->slug }}">
-                    {{ $post->title }}
-                </a>
-            </h1>
-
-            <div>
-                {{ $post->excerpt }}
-            </div>
-        </article>
-    @endforeach
-</x-layout>
-
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('users');
+    }
+}
 ```
 
-En este episodio cambiamos un poco la sintaxis esto porque views tiene la estructura html y para que cada vez que queramos
-actualizar no debamos hacerlo en cada vista.Esto reducira la duplicación
+luego de hacer los cambios en `2014_10_12_000000_create_users_table.php` ejecutaremos nuevamente los comandos
+ `php artisan migrate` despues `php artisan migrate:rollback` y por ultimo `php artisan migrate:fresh`
+
+ ![Vista ](images/fresh.png)
+
+ ![Vista ](images/migrate.png)
+
