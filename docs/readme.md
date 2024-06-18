@@ -17,3 +17,13 @@
 - [14. Blade The Absolute Basics](./blade/Blade-The-Absolute-Basics.md)
 - [15. Blade Layouts Two Ways](./blade/Blade-Layouts-Two-Ways.md)
 - [16. A Few Tweaks and Consideration](./blade/A-Few-Tweaks-and-Consideration.md)
+
+## 04. Working With Databases
+
+- [17. Environment Files and Database Connections](./Working-With-Databases/Environment-Files-and-Database-Connections.md)
+- [18. Migrations The Absolute Basics](./Working-With-Databases/Migrations-The-Absolute-Basics.md)
+- [19. Eloquent and the Active Record Pattern](./Working-With-Databases/Eloquent-and-the-Active-Record-Pattern.md)
+- [20. Make a Post Model and Migration](./Working-With-Databases/Make-a-Post-Model-and-Migration.md)
+- [21. Eloquent Updates and HTML Escaping](./Working-With-Databases/Eloquent-Updates-and-HTML-Escaping.md)
+- [22. 3 Ways to Mitigate Mass Assignment Vulnerabilities](./Working-With-Databases/3-Ways-to-Mitigate-Mass-Assignment-Vulnerabilities.md)
+- [23. ](./Working-With-Databases/)
