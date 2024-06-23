@@ -32,6 +32,8 @@
 - [26. Clockwork, and the N+1 Problem](./Working-With-Databases/Clockwork-and-the-N+1-Problem.md)
 - [27. Database Seeding Saves Time](./Working-With-Databases/Database-Seeding-Saves-Time.md)
 - [28. Turbo Boost With Factories](./Working-With-Databases/Turbo-Boost-With-Factories.md)
+- [29. View All Posts By An Author](./Working-With-Databases/View-All-Posts-By-An-Author.md)
+
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
