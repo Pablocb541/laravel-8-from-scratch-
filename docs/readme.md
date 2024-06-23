@@ -30,6 +30,7 @@
 - [24. Your First Eloquent Relationship](./Working-With-Databases/Your-First-Eloquent-Relationship.md)
 - [25. Show All Posts Associated With a Category](./Working-With-Databases/Show-All-Posts-Associated-With-a-Category.md)
 - [26. Clockwork, and the N+1 Problem](./Working-With-Databases/Clockwork-and-the-N+1-Problem.md)
+- [27. Database Seeding Saves Time](./Working-With-Databases/Database-Seeding-Saves-Time.md)
 
 
 ## Repository GitHub
