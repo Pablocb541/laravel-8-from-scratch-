@@ -33,6 +33,7 @@
 - [27. Database Seeding Saves Time](./Working-With-Databases/Database-Seeding-Saves-Time.md)
 - [28. Turbo Boost With Factories](./Working-With-Databases/Turbo-Boost-With-Factories.md)
 - [29. View All Posts By An Author](./Working-With-Databases/View-All-Posts-By-An-Author.md)
+- [30. Eager Load Relationships on an Existing Model](./Working-With-Databases/Eager-Load-Relationships-on-an-Existing-Model.md)
 
 
 ## Repository GitHub
