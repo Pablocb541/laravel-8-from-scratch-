@@ -38,6 +38,8 @@
 ## 05. Integrate the Design
 
 - [31. Convert the HTML and CSS to Blade](./Integrate-the-Design/Convert-the-HTML-and-CSS-to-Blade.md)
+- [32. Blade Components and CSS Grids](./Integrate-the-Design/Blade-Components-and-CSS-Grids.md)
+
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
