@@ -47,8 +47,11 @@
 ## 06. Search
 
 - [37. Search (The Messy Way)](./Search/Search-(The-Messy-Way).md)
-- [38. Search (The Cleaner Way))](./Search/Search-(The-Cleaner-Way).md)
+- [38. Search (The Cleaner Way)](./Search/Search-(The-Cleaner-Way).md)
 
+## 07. Filtering
+
+- [39. Advanced Eloquent Query Constraints](./Filtering/Advanced-Eloquent-Query-Constraints.md)
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
