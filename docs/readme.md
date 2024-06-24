@@ -47,6 +47,7 @@
 ## 06. Search
 
 - [37. Search (The Messy Way)](./Search/Search-(The-Messy-Way).md)
+- [38. Search (The Cleaner Way))](./Search/Search-(The-Cleaner-Way).md)
 
 
 ## Repository GitHub
