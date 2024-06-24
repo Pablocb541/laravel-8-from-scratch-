@@ -61,5 +61,11 @@
 
 - [44. Laughably Simple Pagination](./Pagination/Laughably-Simple-Pagination.md)
 
+## 09. Forms and Authentication
+
+- [45. Build a Register User Page](./Forms-and-Authentication/Build-a-Register-User-Page.md)
+
+
+
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
