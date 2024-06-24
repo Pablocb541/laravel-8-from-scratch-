@@ -44,6 +44,10 @@
 - [35. How to Extract a Dropdown Blade Component](./Integrate-the-Design/How-to-Extract-a-Dropdown-Blade-Component.md)
 - [36. Quick Tweaks and Clean-Up](./Integrate-the-Design/Quick-Tweaks-and-Clean-Up.md)
 
+## 06. Search
+
+- [37. Search (The Messy Way)](./Search/Search-(The-Messy-Way).md)
+
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
