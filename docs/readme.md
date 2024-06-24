@@ -41,7 +41,7 @@
 - [32. Blade Components and CSS Grids](./Integrate-the-Design/Blade-Components-and-CSS-Grids.md)
 - [33. Convert the Blog Post Page](./Integrate-the-Design/Convert-the-Blog-Post-Page.md)
 - [34. A Small JavaScript Dropdown Detour](./Integrate-the-Design/A-Small-JavaScript-Dropdown-Detour.md)
-
+- [35. How to Extract a Dropdown Blade Component](./Integrate-the-Design/How-to-Extract-a-Dropdown-Blade-Component.md)
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
