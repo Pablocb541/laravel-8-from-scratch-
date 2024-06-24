@@ -35,6 +35,9 @@
 - [29. View All Posts By An Author](./Working-With-Databases/View-All-Posts-By-An-Author.md)
 - [30. Eager Load Relationships on an Existing Model](./Working-With-Databases/Eager-Load-Relationships-on-an-Existing-Model.md)
 
+## 05. Integrate the Design
+
+- [31. Convert the HTML and CSS to Blade](./Integrate-the-Design/Convert-the-HTML-and-CSS-to-Blade.md)
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
