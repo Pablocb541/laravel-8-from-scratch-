@@ -1,3 +1,15 @@
+[< Volver al índice](/docs/readme.md)
+
+# A Small JavaScript Dropdown Detour
+
+En este episodio, tenemos que hacer que "Categorías" se despliegue en la página de inicio y funcione como se espera. usaremos JavaScript para hacer que esto funcione, utilizando la excelente biblioteca `Alpine.js.` Después de esto, volveremos a algunos temas específicos de Laravel.
+
+Paso 1: Modificar `_posts-header.blade.php`
+
+Primero, editamos el archivo `_posts-header.blade.php` para integrar nuestras categorías y darle un diseño apropiado:
+
+```html
+
 <header class="max-w-xl mx-auto mt-20 text-center">
     <h1 class="text-4xl">
         Latest <span class="text-blue-500">Laravel From Scratch</span> News
@@ -81,3 +93,35 @@
         </div>
     </div>
 </header>
+
+```
+Paso 2: Modificar `web.php`
+Para que el dropdown funcione, es necesario agregar las categorías a todas las rutas en `web.php`:
+
+```php
+Route::get('/', function () {
+    return view('posts', [
+        'posts' => Post::latest()->get(),
+        'categories' => Category::all(),
+        'currentCategory' => $category ?? null
+    ]);
+});
+```
+Paso 3: Incluir `Alpine.js`
+Copiaremos el script de `Alpine.js` y lo añadimos al archivo `layout.blade.php`:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+```
+
+Paso 3: Modificar `post.php` y `posts.php`
+Eliminaremos un `.` de la ruta  
+
+```php
+<img src="/images/illustration-3.png" alt="Blog Post illustration" class="rounded-xl">
+```
+
+ ![Vista ](images/categories-ep34.png)
+# Resumen
+
+En este episodio, integramos un dropdown dinámico para categorías en la página de inicio usando Alpine.js. Esto permite a los usuarios seleccionar y filtrar publicaciones por categoría de manera interactiva y sencilla.
