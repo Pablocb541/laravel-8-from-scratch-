@@ -57,5 +57,9 @@
 - [42. Merge Category and Search Queries](./Filtering/Merge-Category-and-Search-Queries.md)
 - [43. Fix a Confusing Eloquent Query Bug](./Filtering/Fix-a-Confusing-Eloquent-Query-Bug.md)
 
+## 08. Pagination
+
+- [44. Laughably Simple Pagination](./Pagination/Laughably-Simple-Pagination.md)
+
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
