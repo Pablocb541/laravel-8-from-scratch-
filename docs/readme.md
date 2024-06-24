@@ -39,6 +39,7 @@
 
 - [31. Convert the HTML and CSS to Blade](./Integrate-the-Design/Convert-the-HTML-and-CSS-to-Blade.md)
 - [32. Blade Components and CSS Grids](./Integrate-the-Design/Blade-Components-and-CSS-Grids.md)
+- [33. Convert the Blog Post Page](./Integrate-the-Design/Convert-the-Blog-Post-Page.md)
 
 
 ## Repository GitHub

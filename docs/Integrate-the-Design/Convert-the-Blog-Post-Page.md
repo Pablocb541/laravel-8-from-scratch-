@@ -1,3 +1,15 @@
+[< Volver al índice](/docs/readme.md)
+
+# Convert the Blog Post Page
+
+En este episodio, mejoramos la presentación y la funcionalidad de la página de visualización de publicaciones del blog, además de agregar un botón para volver a la lista de publicaciones.
+
+Paso 1: Modificar `post.blade.php`
+
+Editamos el archivo `post.blade.php `para aplicar nuestros estilos y rutas. El contenido será el siguiente:
+
+```html
+
 <x-layout>
     <section class="px-6 py-8">
         <main class="max-w-6xl mx-auto mt-10 lg:mt-20 space-y-6">
@@ -49,3 +61,23 @@
         </main>
     </section>
 </x-layout>
+
+```
+Paso 2: Crear `category-button.blade.php`
+
+Para manejar la categoría del post, creamos un nuevo componente llamado `category-button.blade.php` dentro de la carpeta components:
+
+```php
+@props(['category'])
+
+<a href="/category/{{ $category->slug }}" 
+   class="px-3 py-1 border border-blue-300 rounded-full text-blue-300 text-xs uppercase font-semibold" 
+   style="font-size: 10px">{{ $category->name }}</a>
+```
+
+Boton para regresar `Back to Posts`
+
+ ![Vista ](images/button.png)
+
+# Resumen 
+Este episodio trató sobre la creación y estilización de la página de visualización de publicaciones del blog, mejorando su presentación y funcionalidad mediante la utilización de componentes Blade y rutas adecuadas. Además, se agregó un botón para volver a la lista de publicaciones.
