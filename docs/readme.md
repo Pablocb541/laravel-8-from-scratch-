@@ -67,7 +67,7 @@
 - [46. Automatic Password Hashing With Mutators](./Forms-and-Authentication/Automatic-Password-Hashing-With-Mutators.md)
 - [47. Failed Validation and Old Input Data](./Forms-and-Authentication/Failed-Validation-and-Old-Input-Data.md)
 - [48. Show a Success Flash Message](./Forms-and-Authentication/Show-a-Success-Flash-Message.md)
-
+- [49. Login and Logout](./Forms-and-Authentication/Login-and-Logout.md)
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
