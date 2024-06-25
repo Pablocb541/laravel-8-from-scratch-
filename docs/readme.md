@@ -69,8 +69,7 @@
 - [48. Show a Success Flash Message](./Forms-and-Authentication/Show-a-Success-Flash-Message.md)
 - [49. Login and Logout](./Forms-and-Authentication/Login-and-Logout.md)
 - [50. Build the Log In Page](./Forms-and-Authentication/Build-the-Log-In-Page.md)
-
-
+- [51. Laravel Breeze Quick Peek](./Forms-and-Authentication/Laravel-Breeze-Quick-Peek.md)
 
 
 ## Repository GitHub
