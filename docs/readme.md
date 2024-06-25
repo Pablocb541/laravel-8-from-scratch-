@@ -66,6 +66,7 @@
 - [45. Build a Register User Page](./Forms-and-Authentication/Build-a-Register-User-Page.md)
 - [46. Automatic Password Hashing With Mutators](./Forms-and-Authentication/Automatic-Password-Hashing-With-Mutators.md)
 - [47. Failed Validation and Old Input Data](./Forms-and-Authentication/Failed-Validation-and-Old-Input-Data.md)
+- [48. Show a Success Flash Message](./Forms-and-Authentication/Show-a-Success-Flash-Message.md)
 
 
 ## Repository GitHub
