@@ -72,5 +72,8 @@
 - [51. Laravel Breeze Quick Peek](./Forms-and-Authentication/Laravel-Breeze-Quick-Peek.md)
 
 
+## 10. Comments
+- [52. Write the Markup for a Post Comment](./Comments/Write-the-Markup-for-a-Post-Comment.md)
+
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
