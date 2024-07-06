@@ -95,6 +95,7 @@
 
 - [62. Limit Access to Only Admins](./Admin-Section/Limit-Access-to-Only-Admins.md) 
 
+- [63. Create the Publish Post Form](./Admin-Section/Create-the-Publish-Post-Form.md) 
 
 
 ## Repository GitHub
