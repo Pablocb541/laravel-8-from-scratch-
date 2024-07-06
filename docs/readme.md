@@ -91,5 +91,11 @@
 - [61. Toy Chests and Contracts](./Newsletters-and-APIs/Toy-Chests-and-Contracts.md) 
 
 
+## 12. Admin Section
+
+- [62. Limit Access to Only Admins](./Admin-Section/Limit-Access-to-Only-Admins.md) 
+
+
+
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
