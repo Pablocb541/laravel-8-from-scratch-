@@ -88,5 +88,8 @@
 
 - [60. Extract a Newsletter Service](./Newsletters-and-APIs/Extract-a-Newsletter-Service.md) 
 
+- [61. Toy Chests and Contracts](./Newsletters-and-APIs/Toy-Chests-and-Contracts.md) 
+
+
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
