@@ -80,5 +80,9 @@
 - [56. Activate the Comment Form](./Comments/Activate-the-Comment-Form.md)
 - [57. Some Light Chapter Clean Up](./Comments/Some-Light-Chapter-Clean-Up.md)
 
+## 11. Newsletters and APIs
+
+- [58. Mailchimp API Tinkering)](./Newsletters-and-APIs/Mailchimp-API-Tinkering.md) 
+
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
