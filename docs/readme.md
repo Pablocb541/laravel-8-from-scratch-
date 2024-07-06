@@ -97,6 +97,10 @@
 
 - [63. Create the Publish Post Form](./Admin-Section/Create-the-Publish-Post-Form.md) 
 
+- [64. Validate and Store Post Images](./Admin-Section/Validate-and-Store-Post-Thumbnails.md) 
+
+
+
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
