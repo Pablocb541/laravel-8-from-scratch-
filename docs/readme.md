@@ -86,5 +86,7 @@
 
 - [59. Make the Newsletter Form Work](./Newsletters-and-APIs/Make-the-Newsletter-Form-Work.md) 
 
+- [60. Extract a Newsletter Service](./Newsletters-and-APIs/Extract-a-Newsletter-Service.md) 
+
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
