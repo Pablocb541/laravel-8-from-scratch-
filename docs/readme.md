@@ -99,7 +99,7 @@
 
 - [64. Validate and Store Post Images](./Admin-Section/Validate-and-Store-Post-Thumbnails.md) 
 
-
+- [65. Extract Form-Specific Blade Components](./Admin-Section/Extract-Form-Specific-Blade-Components.md) 
 
 
 ## Repository GitHub
