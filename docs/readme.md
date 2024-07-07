@@ -103,6 +103,7 @@
 
 - [66. Extend the Admin Layout](./Admin-Section/Extend-the-Admin-Layout.md) 
 
+- [67. Create a Form to Edit and Delete Posts](./Admin-Section/Create-a-Form-to-Edit-and-Delete-Posts.md) 
 
 
 ## Repository GitHub
