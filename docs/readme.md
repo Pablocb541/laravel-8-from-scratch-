@@ -101,6 +101,9 @@
 
 - [65. Extract Form-Specific Blade Components](./Admin-Section/Extract-Form-Specific-Blade-Components.md) 
 
+- [66. Extend the Admin Layout](./Admin-Section/Extend-the-Admin-Layout.md) 
+
+
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
