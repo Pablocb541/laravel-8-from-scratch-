@@ -109,6 +109,9 @@
 
 - [69. All About Authorization](./Admin-Section/All-About-Authorization.md) 
 
+## 13. Conclusion
+
+- [70. Goodbye and Next Steps)](./conclusion/Goodbye-and-Next-steps.md)
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
