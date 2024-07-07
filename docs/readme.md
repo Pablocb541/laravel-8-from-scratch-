@@ -105,6 +105,8 @@
 
 - [67. Create a Form to Edit and Delete Posts](./Admin-Section/Create-a-Form-to-Edit-and-Delete-Posts.md) 
 
+- [68. Group and Store Validation Logic](./Admin-Section/Group-and-Store-Validation-Logic.md) 
+
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
