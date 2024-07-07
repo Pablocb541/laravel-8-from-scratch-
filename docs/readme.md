@@ -107,6 +107,8 @@
 
 - [68. Group and Store Validation Logic](./Admin-Section/Group-and-Store-Validation-Logic.md) 
 
+- [69. All About Authorization](./Admin-Section/All-About-Authorization.md) 
+
 
 ## Repository GitHub
 - [GitHub](https://github.com/Pablocb541/laravel-8-from-scratch-/commits/main/)
